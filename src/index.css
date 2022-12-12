@@ -1,0 +1,11 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #cee3f9, #a6c8ee);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}

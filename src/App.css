@@ -1,0 +1,15 @@
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+h1 span {
+    word-spacing: 5px;
+    letter-spacing: .5px;
+}
