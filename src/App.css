@@ -2,6 +2,10 @@
 .App {
     display: flex;
     flex-direction: column;
+    row-gap: 20px;
+
+    width: 800px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -12,4 +16,9 @@ h1 {
 h1 span {
     word-spacing: 5px;
     letter-spacing: .5px;
+}
+
+h1 sup {
+    font-size: 22px;
+    letter-spacing: 1px;
 }

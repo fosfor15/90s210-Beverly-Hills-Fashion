@@ -1,5 +1,9 @@
 import './App.css';
 
+import categories from './data/categories';
+import Category from './components/category/category';
+
+
 function App() {
     return (
         <div className="App">
@@ -9,6 +13,12 @@ function App() {
                     <span>Beverly Hills Fashion</span>
                 </h1>
             </header>
+
+            <main>
+                { categories.map(category => 
+                    <Category { ...category } />
+                ) }
+            </main>
         </div>
     );
 }
