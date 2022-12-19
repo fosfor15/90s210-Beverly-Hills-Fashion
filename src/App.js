@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 import categories from './data/categories';
 import Category from './components/category/category';
@@ -15,8 +15,11 @@ function App() {
             </header>
 
             <main>
-                { categories.map(category => 
-                    <Category { ...category } />
+                { categories.map(({ id, ...category }) => 
+                    <Category
+                        key={ id }
+                        { ...category }
+                    />
                 ) }
             </main>
         </div>
