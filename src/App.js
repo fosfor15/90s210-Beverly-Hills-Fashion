@@ -1,7 +1,6 @@
 import './App.scss';
 
-import categories from './data/categories';
-import Category from './components/category/category';
+import Directory from './components/directory/directory';
 
 
 function App() {
@@ -14,14 +13,7 @@ function App() {
                 </h1>
             </header>
 
-            <main>
-                { categories.map(({ id, ...category }) => 
-                    <Category
-                        key={ id }
-                        { ...category }
-                    />
-                ) }
-            </main>
+            <Directory />
         </div>
     );
 }

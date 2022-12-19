@@ -16,7 +16,8 @@
     background-size: 100%;
     background-position: center;
 
-    transition: background-size 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    $time-function: cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    transition: background-size 5s $time-function;
 
     &:hover {
         background-size: 110%;
@@ -33,7 +34,7 @@
         background-color: white;
         opacity: .7;
 
-        transition: opacity 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+        transition: opacity 3s $time-function;
 
         h3 {
             font-weight: bold;
