@@ -1,0 +1,19 @@
+
+h1 {
+    margin: 40px 0;
+
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+
+    * {
+        letter-spacing: 1px;
+    }
+    
+    sup {
+        font-size: 22px;
+    }
+    
+    span {
+        word-spacing: 5px;
+    }
+}

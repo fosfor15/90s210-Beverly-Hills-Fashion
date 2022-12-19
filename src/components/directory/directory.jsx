@@ -1,7 +1,7 @@
-import './directory.scss';
-
 import Category from '../category/category';
 import categories from '../../data/categories';
+
+import './directory.scss';
 
 
 function Directory() {

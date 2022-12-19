@@ -1,18 +1,13 @@
-import './App.scss';
-
+import Header from './components/header/header';
 import Directory from './components/directory/directory';
+
+import './App.scss';
 
 
 function App() {
     return (
         <div className="App">
-            <header>
-                <h1>
-                    90<sup>s</sup>210&#8199;
-                    <span>Beverly Hills Fashion</span>
-                </h1>
-            </header>
-
+            <Header />
             <Directory />
         </div>
     );
